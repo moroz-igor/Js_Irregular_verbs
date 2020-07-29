@@ -1,0 +1,256 @@
+body, div, p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.center {
+  text-align: center; }
+
+.just {
+  text-align: justify; }
+
+.midl {
+  margin: 0 auto; }
+
+.italic {
+  font-style: italic; }
+
+.fs_9 {
+  font-size: 9px; }
+
+.fs_10 {
+  font-size: 10px; }
+
+.fs_11 {
+  font-size: 11px; }
+
+.fs_12 {
+  font-size: 12px; }
+
+.fs_14 {
+  font-size: 14px; }
+
+.fs_16 {
+  font-size: 16px; }
+
+.fs_18 {
+  font-size: 18px; }
+
+.fs_20 {
+  font-size: 20px; }
+
+.fs_22 {
+  font-size: 22px; }
+
+.firebrick {
+  color: firebrick; }
+
+.darkred {
+  color: darkred; }
+
+.red {
+  color: darkred; }
+
+.white {
+  color: white; }
+
+.green {
+  color: darkgreen; }
+
+.gray {
+  color: darkblue; }
+
+body {
+  background-image: url("../img/DSC_0428.png");
+  background-attachment: fixed;
+  width: 100% !important;
+ }
+
+header {
+  text-align: center;
+  opacity: 0.9; }
+  ._overall{
+    background-color: #008844; }
+  header h1 {
+    font-size: 50px;
+    color: darkred;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    margin: 50px; }
+    @media only screen and (max-width: 600px) {
+      header h1 {
+        font-size: 25px;
+      }
+    }
+._statistic{
+    border-radius: 0 !important;
+}
+@media only screen and (max-width: 375px) {
+  ._statistic{
+    margin-top: 5px;
+  }
+}
+
+.author {
+  padding-left: 40px;
+  padding-top: 70px;
+  width: 132px;
+  font-style: italic; }
+
+.overall {
+    background-color: #F8F8F8;
+    opacity: 0.95;
+    margin-top: 10px;
+ }
+ ._word-element{
+     padding-top: 5px;
+     border: solid 1px silver;
+     margin: 5px;
+ }
+ @media only screen and (max-width: 992px)and (min-width: 768px) {
+   ._word-element{
+       height: 250px;
+   }
+ }
+
+
+.string {
+  height: 60px;
+  background-color: white;
+  margin: 2px 15px; }
+  @media only screen and (max-width: 768px) {
+    .string{
+        height: auto;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .string-element{
+      display: block !important;
+      margin-top: 10px;
+      padding-left: 20px;
+      width: 100%;
+      text-align: left !important;
+    }
+  }
+
+
+.rusword {
+  text-align: left;
+  margin-top: 18px;
+ }
+
+.lamp {
+  text-align: right;
+  margin: 5px; }
+
+.form {
+    font-size: 20px;
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  padding: 10px; }
+  @media only screen and (max-width: 375px) {
+    .form{
+        font-size: 14px;
+    }
+  }
+.btn_string {
+  height: 40px;
+  margin: 8px; }
+
+.icon_string {
+  margin-top: 15px;
+  color: #C4C400; }
+
+.fa-plus-circle {
+  margin-left: 10px;
+  color: darkgreen; }
+
+.result {
+ font-size: 20px;
+}
+
+.answer_block {
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;}
+
+.answer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 16px;
+  font-style: italic; }
+
+.answer_name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  font-size: 16px;
+  font-style: italic; }
+
+.five_string_run {
+  text-align: right;
+  margin-right: 5%; }
+
+#start {
+  margin: 0px 15px; }
+
+
+footer {
+  background-image: url("../img/fontan.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+footer div {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.validator {
+  -webkit-animation: rotating 8s linear 0s infinite;
+  animation: rotating 8s linear 0s infinite;
+  background-color: cadetblue;
+  border-radius: 60px;
+  color: white;
+  height: 120px;
+  line-height: 120px;
+  margin: auto;
+  width: 120px; }
+
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+#github {
+  padding-top: 20px; }
+
+a:hover {
+  text-decoration: none; }
+
+.try {
+  display: none; }

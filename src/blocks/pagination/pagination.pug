@@ -1,0 +1,22 @@
+mixin button(_num) 
+    li
+        button(onclick="twenty("+_num+")")= _num
+mixin pagination
+    - var n = 1; 
+    h1(class="center") Vocabulary trainer   
+    nav(class="text-center")
+        ul(class="pagination pagination-sm")
+            li
+                button(onclick="twenty(1)")
+                    i(class="fa fa-chevron-left")
+                    i(class="fa fa-chevron-left")
+            while n < 7
+                +button(n++)       
+            li
+                button(onclick="twenty(1)")
+                    i(class="fa fa-chevron-right")
+                    i(class="fa fa-chevron-right")
+    br    
+                    
+                        
+                    

@@ -1,0 +1,14 @@
+mixin statistics
+    .statistics
+        div(id="time")
+            time 00:00:00
+            div
+                p done
+            div(id="_count_answer")
+                | 0    
+        .count
+            div(id="count_correct") 0
+            p(class="fs_14") Correct
+        .count    
+            div(id="count_incorrect") 0
+            p(class="fs_14") Incorrect

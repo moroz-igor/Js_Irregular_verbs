@@ -1,0 +1,28 @@
+mixin string(_number)
+    div(class="row string")
+        div(class="hidden")
+            span(class="try" id="attendance_"+_number) 0
+        div(class="string-element rusword col-lg-2 col-md-3 col-sm-10 col-xs-3")
+            p(class="fs_16 italic" id="rusword_"+_number)
+        div(class="string-element input col-lg-6 col-md-4 col-sm-9 col-xs-9")
+            input(type="text" id="user_string_"+_number  class="form")
+        div(class="string-element col-lg-4 col-md-4 col-sm-12 col-xs-4")  
+            img(id="lamp_"+_number src="./img/lamp_of.gif" alt="lamp_off")
+            button(type="button" id="button_"+_number class="btn btn-success btn_string" onclick="progressive("+_number+")")
+                i(class="fa fa-sign-in")
+                | Проверить
+            span(id="result_"+_number class="result")    
+        
+mixin answer(_number)
+    div(class="row answer_block" id="answer_"+_number)
+        div(class="col-lg-2 col-md-2 hidden-sm hidden-xs")
+            span(class="answer_name") Answer
+        div(class="answer col-lg-3 col-md-3 col-sm-6 col-xs-6")
+            span(id="correct_"+_number)
+        div(class="answer red col-lg-4 col-md-4 col-sm-10 col-xs-10" id="special_mes_"+_number)
+                | Do not use punctuation or special characters!
+
+mixin word(_element)
+    +string(_element)
+    br
+    +answer(_element)

@@ -1,0 +1,15 @@
+include ../word/word
+
+
+mixin hideFiveWords(_id)
+    div(class="five_string_run")
+        button(type="submit" class="btn btn-link" onclick="hide_five("+_id+")")
+            i(class="fa fa-sign-in fa-rotate-180")
+            |  hide five wordrs
+
+mixin five(_five_id, _from, _to)
+    - var n = _from;
+    div(id="five_"+_five_id)
+        +hideFiveWords(_five_id)
+        while n <= _to
+            +word(n++)

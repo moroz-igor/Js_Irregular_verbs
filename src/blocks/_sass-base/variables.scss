@@ -1,0 +1,30 @@
+$color-body: white;
+$lora: "Lora";
+$id-color: #337AB7;
+
+button,
+button:active,
+button:focus {
+    outline: none !important;
+}
+input,
+input:active,:hover,:focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+._it{
+    font-style: italic !important;
+}
+._center{
+    margin: 0 auto !important;
+}
+._midl{
+    text-align: center !important;
+}
+._sq{
+    outline: none !important;
+    outline-offset: none !important;
+}
+._lora{
+    font-family: $lora !important;
+}

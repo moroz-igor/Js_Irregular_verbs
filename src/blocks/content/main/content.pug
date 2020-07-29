@@ -1,0 +1,31 @@
+include ../../header/header
+include ../../we/we
+include ../../info/info
+include ../../instruction/instruction
+include ../../pagination/pagination
+include ../../handler/handler
+include ../../twenty/twenty
+include ../../autofocus/autofocus
+include ../../statistics/statistics
+include ../../footer/footer
+
+mixin content
+    header
+        +header("My Irregular Verbs with JavaScript")
+        
+    main(class="container overall")
+        div(class="row") 
+            +we 
+            +info 
+            +pagination
+            +handler
+            +twenty
+            +autofocus
+            +footer
+            +statistics
+        
+                
+       
+    
+            
+ 
